@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: navy;
+    padding: 20px;
+    text-align: center;
+}
+nav a.logo {
+    color: deepskyblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+ul.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.nav-links li {
+    display: inline;
+    margin-right: 15px;
+}
+ul.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+ul.nav-links a:hover,
+ul.nav-links a.active {
+    background-color: deepskyblue;
+    color: navy;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: navy;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid navy;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+.btn {
+    background-color: deepskyblue;
+    color: navy;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: navy;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: navy;
+    color: white;
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+    ul.nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .table-container {
+        overflow-x: auto;
+    }
+
+    main {
+        padding: 10px;
+    }
+    
+    section {
+        padding: 15px;
+    }
+}
